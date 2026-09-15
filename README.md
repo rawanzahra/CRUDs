@@ -13,6 +13,13 @@ A lightweight web application designed to manage products using HTML, CSS, JavaS
 * **Dynamic Search:** Filter records in real time either by **Title** or **Category**.
 * **Data Persistence:** Keeps all items saved using `LocalStorage` so records persist across browser refreshes.
 
+### ⚠️ Product Creation Validation Rules
+To successfully create a new product, the following requirements must be met:
+1. **Title:** Required (cannot be empty).
+2. **Price:** Required (cannot be empty).
+3. **Category:** Required (cannot be empty).
+4. **Count:** must be **less than 100** (`count < 100`).
+
 **Tech Stack**
 * **HTML5:** Semantic structure and custom form elements
 * **CSS3:** Custom styling, dark mode theme, and responsive interface layout
@@ -21,4 +28,4 @@ A lightweight web application designed to manage products using HTML, CSS, JavaS
 **Getting Started**
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/rawanzahra/CRUDs.git](https://github.com/rawanzahra/CRUDs.git)
+   git clone [https://github.com/rawanzahra/CRUDs.git]
